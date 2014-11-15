@@ -1,59 +1,61 @@
 Framework-css
 =============
 
-Utilisation du framework :
+Utilisation du framework
+------------------------
 
-- Ajouter le fichier 'framework.css' en feuille de style
+Ajouter le fichier 'framework.css' en feuille de style
 
-Utilisation des classes :
+Utilisation des classes
+-----------------------
 
 * Alignement de texte 
 
-.text-left
-.text-right
-.text-center
-.text-justify
-.text-nowrap
-.text-lowercase
-.text-uppercase
+<p>.text-left</p>
+<p>.text-right</p>
+<p>.text-center</p>
+<p>.text-justify</p>
+<p>.text-nowrap</p>
+<p>.text-lowercase</p>
+<p>.text-uppercase</p>
 
 * Tableaux
 
-.tableau
-.tableau-alt (lignes altérées)
-.tableau-hover (survol des lignes)
+<p>.tableau</p>
+<p>.tableau-alt (lignes altérées)</p>
+<p>.tableau-hover (survol des lignes)</p>
 
 * Grille
 
-.span-n (n de 1 à 8) : taille des éléments
-.offset-n (n de 1 à 8) : écart des éléments
+<p>.span-n (n de 1 à 8) : taille des éléments</p>
+<p>.offset-n (n de 1 à 8) : écart des éléments</p>
 
 * Boutons 
 
-.btn (boutons normal bleu)
-.btn-lg (grand bouton)
-.btn-sm (petit bouton)
-.btn-fancy (bouton avec effet 3D)
+<p>.btn (boutons normal bleu)</p>
+<p>.btn-lg (grand bouton)</p>
+<p>.btn-sm (petit bouton)</p>
+<p>.btn-fancy (bouton avec effet 3D)</p>
 
-Couleurs : 
+<p>Couleurs : 
 
-.btn-green
-.btn-red
-.btn-orange
+<p>.btn-green</p>
+<p>.btn-red</p>
+<p>.btn-orange</p>
 
 * Alertes 
 
-Utiliser la classe .alert asocciée à .alert-info , .alert-avert , .alert-success ou .alert-danger
+<p>Utiliser la classe .alert asocciée à .alert-info , .alert-avert , .alert-success ou .alert-danger</p>
 
 * Navbar responsive
 
-Utiliser la classe .navbar
+<p>Utiliser la classe .navbar</p>
 
 * Breadcrumb 
 
-Utiliser la classe .breadcrumb sur des "li"
+<p>Utiliser la classe .breadcrumb sur des "li"</p>
 
 * Pagination
 
-Utiliser la classe .pagination
+<p>Utiliser la classe .pagination</p>
 
