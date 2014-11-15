@@ -1,0 +1,91 @@
+/* line 1, ../scss/bouton.scss */
+.btn, .btn-green, .btn-red, .btn-orange, .btn-lg, .btn-sm {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #FFFFFF;
+  background-color: #428bca;
+  border-color: #ccc;
+}
+
+/* line 19, ../scss/bouton.scss */
+.btn:hover, .btn-green:hover, .btn-red:hover, .btn-orange:hover, .btn-lg:hover, .btn-sm:hover {
+  background-color: #6aa3d5;
+}
+
+/* line 23, ../scss/bouton.scss */
+.btn-green {
+  background-color: green;
+}
+
+/* line 28, ../scss/bouton.scss */
+.btn-green:hover {
+  background-color: #00b300;
+}
+
+/* line 32, ../scss/bouton.scss */
+.btn-red {
+  background-color: red;
+}
+
+/* line 37, ../scss/bouton.scss */
+.btn-red:hover {
+  background-color: #ff6666;
+}
+
+/* line 41, ../scss/bouton.scss */
+.btn-orange {
+  background-color: #f0ad4e;
+}
+
+/* line 46, ../scss/bouton.scss */
+.btn-orange:hover {
+  background-color: #f4c37d;
+}
+
+/* line 50, ../scss/bouton.scss */
+.btn-lg {
+  font-size: 1.2em;
+  padding: 3px;
+}
+
+/* line 56, ../scss/bouton.scss */
+.btn-sm {
+  font-size: 0.8em;
+  padding: 1px;
+}
+
+/* line 62, ../scss/bouton.scss */
+.btn-fancy {
+  display: inline-block;
+  width: 100px;
+  color: #FFF;
+  text-decoration: none;
+  border-radius: 5px;
+  border: solid 1px #D94E3B;
+  background: #cb3b27;
+  text-align: center;
+  padding: 20px 30px;
+  margin: 2px;
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  transition: all 0.1s;
+  -webkit-box-shadow: 0px 9px 0px #84261a;
+  -moz-box-shadow: 0px 9px 0px #84261a;
+  box-shadow: 0px 9px 0px #84261a;
+}
+
+/* line 83, ../scss/bouton.scss */
+.btn-fancy:hover {
+  background-color: #dc5b49;
+  cursor: pointer;
+}

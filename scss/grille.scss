@@ -1,0 +1,110 @@
+.container{
+	background-color:#fff;
+	width:50%;
+	margin:auto;
+	min-width:380px;
+	overflow:hidden;
+}
+
+.container:after{
+	clear:both;
+	display:block;
+	content:"";
+}
+
+.ligne{
+	background-color: #FF8888;
+	margin: 5px 0;
+}
+
+.ligne:after{
+	clear:both;
+	display:block;
+	content:"";
+}
+
+.span-1{
+	width:10.75%;
+	background-color:#39C;
+	margin:0 1%;
+	float:left;
+	padding:0;
+}
+
+.span-2{
+	width:23.5%;
+	background-color:#39C;
+	margin:0 1%;
+	float:left;
+}
+
+.span-3{
+	width:36.25%;
+	background-color:#39C;
+	margin:0 1%;
+	float:left;
+}
+
+.span-4{
+	width:49%;
+	background-color:#39C;
+	margin:0 1%;
+	float:left;
+}
+
+.span-5{
+	width:61.75%;
+	background-color:#39C;
+	margin:0 1%;
+	float:left;
+}
+
+.span-6{
+	width:74.5%;
+	background-color:#39C;
+	margin:0 1%;
+	float:left;
+}
+
+.span-7{
+	width:87.25%;
+	background-color:#39C;
+	margin:0 1%;
+	float:left;
+}
+
+.span-8{
+	width:98%;
+	background-color:#39C;
+	margin:0 1%;
+	float:left;
+}
+
+.offset-1{
+	margin:0 1% 0 13.75%;
+}
+
+.offset-2{
+	margin:0 1% 0 26.5%;
+	background-color: #FFE62E;
+}
+
+.offset-3{
+	margin:0 1% 0 39.25%;
+}
+
+.offset-4{
+	margin:0 1% 0 52%;
+}
+
+.offset-5{
+	margin:0 1% 0 64.75%;
+}
+
+.offset-6{
+	margin:0 1% 0 77.5%;
+}
+
+.offset-7{
+	margin:0 1% 0 90.25%;
+}

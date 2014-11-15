@@ -1,0 +1,289 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 6, ../scss/typo.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 27, ../scss/typo.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 31, ../scss/typo.scss */
+body {
+  line-height: 1;
+}
+
+/* line 34, ../scss/typo.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 37, ../scss/typo.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 40, ../scss/typo.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 45, ../scss/typo.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 50, ../scss/typo.scss */
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: black;
+  margin: 8px;
+}
+
+/* Texte */
+/* line 58, ../scss/typo.scss */
+h1 {
+  font-size: 2em;
+}
+
+/* line 59, ../scss/typo.scss */
+h2 {
+  font-size: 1.5em;
+}
+
+/* line 60, ../scss/typo.scss */
+h3 {
+  font-size: 1.17em;
+}
+
+/* line 61, ../scss/typo.scss */
+h5 {
+  font-size: .83em;
+}
+
+/* line 62, ../scss/typo.scss */
+h6 {
+  font-size: .75em;
+}
+
+/* line 64, ../scss/typo.scss */
+th {
+  font-weight: bolder;
+  text-align: center;
+}
+
+/* line 66, ../scss/typo.scss */
+small {
+  font-size: .83em;
+  color: grey;
+}
+
+/* line 71, ../scss/typo.scss */
+.sub {
+  font-size: .83em;
+  color: grey;
+}
+
+/* line 76, ../scss/typo.scss */
+p {
+  margin-bottom: 1em;
+}
+
+/* line 80, ../scss/typo.scss */
+mark {
+  background-color: yellow;
+  color: #000;
+}
+
+/* line 85, ../scss/typo.scss */
+del {
+  text-decoration: line-through;
+}
+
+/* line 89, ../scss/typo.scss */
+ins, u {
+  text-decoration: underline;
+}
+
+/* line 93, ../scss/typo.scss */
+strong {
+  font-weight: bolder;
+}
+
+/* line 97, ../scss/typo.scss */
+em {
+  font-style: italic;
+}
+
+/* line 101, ../scss/typo.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 105, ../scss/typo.scss */
+blockquote {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 17.5px;
+  border-left: 5px solid #eee;
+}
+
+/* line 113, ../scss/typo.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* line 119, ../scss/typo.scss */
+code {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #c7254e;
+  background-color: #f9f2f4;
+  border-radius: 4px;
+}
+
+/* Listes */
+/* line 129, ../scss/typo.scss */
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+/* line 135, ../scss/typo.scss */
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+/* line 140, ../scss/typo.scss */
+ul {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  list-style-type: disc;
+}
+
+/* line 146, ../scss/typo.scss */
+.square {
+  list-style-type: square;
+}
+
+/* line 150, ../scss/typo.scss */
+ul li {
+  margin-left: 20px;
+}
+
+/* Alignement texte*/
+/* line 156, ../scss/typo.scss */
+.text-left {
+  text-align: left;
+}
+
+/* line 159, ../scss/typo.scss */
+.text-right {
+  text-align: right;
+}
+
+/* line 162, ../scss/typo.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 165, ../scss/typo.scss */
+.text-justify {
+  text-align: justify;
+}
+
+/* line 168, ../scss/typo.scss */
+.text-nowrap {
+  white-space: nowrap;
+}
+
+/* line 171, ../scss/typo.scss */
+.text-lowercase {
+  text-transform: lowercase;
+}
+
+/* line 174, ../scss/typo.scss */
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/* Tableaux */
+/* line 180, ../scss/typo.scss */
+.tableau, .tableau-alt, .tableau-hover {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 1px solid #cbcbcb;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+/* line 189, ../scss/typo.scss */
+.tableau caption,
+.tableau-alt caption,
+.tableau-hover caption {
+  color: #000;
+  font: italic 85%/1 arial, sans-serif;
+  padding: 1em 0;
+  text-align: center;
+}
+
+/* line 198, ../scss/typo.scss */
+.tableau td,
+.tableau th,
+.tableau-alt td,
+.tableau-alt th,
+.tableau-hover td,
+.tableau-hover th {
+  border-left: 1px solid #cbcbcb;
+  border-width: 0 0 0 1px;
+  font-size: inherit;
+  margin: 0;
+  padding: 0.5em 1em;
+}
+
+/* line 211, ../scss/typo.scss */
+.tableau td, .tableau-alt td, .tableau-hover td {
+  border-bottom: 1px solid #cbcbcb;
+}
+
+/* line 215, ../scss/typo.scss */
+.tableau-alt tr:nth-child(2n-1) td {
+  background-color: #f2f2f2;
+}
+
+/* line 219, ../scss/typo.scss */
+.tableau-hover > tbody > tr:hover > td,
+.tableau-hover > tbody > tr:hover > th {
+  background-color: #f5f5f5;
+}
